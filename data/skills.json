@@ -1,0 +1,20 @@
+{
+  "categories": [
+    {
+      "name": "Backend",
+      "items": ["Java", "Python", "Spring Boot", "Spring MVC", "Spring Security", "FastAPI", "Hibernate", "Spring Data JPA", "REST APIs", "Microservices"]
+    },
+    {
+      "name": "Database",
+      "items": ["MySQL", "PostgreSQL", "Redis", "Elasticsearch", "Hazelcast"]
+    },
+    {
+      "name": "Tools",
+      "items": ["Git", "GitLab", "Maven", "Gradle", "Docker", "AWS EC2", "AWS S3"]
+    },
+    {
+      "name": "Concepts",
+      "items": ["OOP", "DSA", "System Design", "Distributed Systems", "Event-Driven Architecture", "API Design", "Debugging", "Production Support"]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": "ecommerce-backend-system",
+      "name": "E-Commerce Backend System",
+      "tagline": "Role-based backend platform for products, users, and catalog management.",
+      "description": "Developed a secure backend system with Admin, Seller, and Customer roles. Designed RESTful APIs for product management, user management, and catalog services with maintainable layered architecture.",
+      "stack": ["Java", "Spring Boot", "MySQL", "Spring Security", "JWT"],
+      "status": "STABLE",
+      "highlights": [
+        "Role-based authentication and authorization",
+        "REST APIs for products and users",
+        "Pagination, validation, and exception handling"
+      ],
+      "github": "https://github.com/avi-vyas/ecommerce-platform-backend",
+      "details_url": ""
+    },
+    {
+      "id": "doctor-appointment-system",
+      "name": "Doctor Appointment System",
+      "tagline": "Appointment scheduling with secure role-based access.",
+      "description": "Built RESTful APIs for appointment booking and scheduling workflows. Implemented JWT-based access control for doctors and patients with conflict-aware slot management.",
+      "stack": ["Python", "FastAPI", "MySQL", "SQLAlchemy", "JWT"],
+      "status": "STABLE",
+      "highlights": [
+        "Appointment lifecycle management",
+        "Role-based access control",
+        "Conflict-aware time-slot scheduling"
+      ],
+      "github": "https://github.com/avi-vyas/doctor-appointment-system",
+      "details_url": ""
+    }
+  ]
+}

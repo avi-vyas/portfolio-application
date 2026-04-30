@@ -1,0 +1,46 @@
+{
+  "timeline": [
+    {
+      "version": "v1.0",
+      "title": "B.Tech Student (Computer Science and Engineering)",
+      "company": "BML Munjal University",
+      "duration": "2021 — 2025",
+      "achievements": [
+        "Built a role-based e-commerce backend using Java, Spring Boot, MySQL, Spring Security, and JWT",
+        "Developed a doctor appointment system using FastAPI, MySQL, SQLAlchemy, and JWT",
+        "Completed degree with CGPA of 8.14 / 10"
+      ],
+      "impact": "Built strong backend fundamentals through hands-on academic projects and core computer science training.",
+      "status": "RELEASED"
+    },
+    {
+      "version": "v2.0",
+      "title": "Software Engineer (Backend Engineer)",
+      "company": "To The New",
+      "duration": "01/2025 — Present",
+      "achievements": [
+        "Developed and deployed scalable backend services using Java, Spring Boot, and Microservices Architecture for a platform serving 11.8M+ users",
+        "Implemented a pricing feature enabling ~56% of users to upgrade channels, improving subscription workflows and user engagement",
+        "Designed and built a promotions system with multi-service integration supporting configurable business rules",
+        "Developed a search and discovery service using Elasticsearch with filtering, fuzzy search, and sorting",
+        "Built a centralized data access microservice integrating multiple downstream services",
+        "Managed production deployments, debugging, and root cause analysis to maintain reliable releases"
+      ],
+      "impact": "Currently shipping production backend systems focused on scale, business growth, search, and reliability.",
+      "status": "RUNNING"
+    },
+    {
+      "version": "vNext",
+      "title": "Backend Engineer",
+      "company": "To Be Deployed",
+      "duration": "Future Release",
+      "achievements": [
+        "Continue building scalable backend services",
+        "Work on distributed systems and microservices architecture",
+        "Deliver reliable production systems with strong engineering practices"
+      ],
+      "impact": "The next stable release.",
+      "status": "PLANNED"
+    }
+  ]
+}

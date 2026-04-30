@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "name": "PortfolioApplication",
+    "tagline": "Stable release for meaningful opportunities.",
+    "version": "2.0.0",
+    "status": "RUNNING"
+  },
+  "person": {
+    "name": "Avi Vyas",
+    "role": "Software Engineer (Backend Engineer)",
+    "headline": "Building backend systems that scale to millions—without breaking under pressure.",
+    "summary": "Backend engineer focused on high-scale microservices and performance-driven design, building systems that power 10M+ users",
+    "location": "Gurgaon, India",
+    "email": "avi.vyas.work@gmail.com",
+    "links": {
+      "github": "https://github.com/avi-vyas",
+      "linkedin": "https://www.linkedin.com/in/avi-vyas",
+      "email": "mailto:avi.vyas.work@gmail.com"
+    }
+  },
+  "system_status": [
+    { "label": "Java Runtime", "value": "ACTIVE" },
+    { "label": "Spring Boot Stack", "value": "LOADED" },
+    { "label": "Problem Solving", "value": "ONLINE" },
+    { "label": "Snack Supply", "value": "CRITICAL - LOW" }
+  ],
+  "strengths": [
+    {
+      "title": "Backend Development",
+      "desc": "Building scalable backend services using Java, Spring Boot, and Microservices Architecture."
+    },
+    {
+      "title": "REST API Design",
+      "desc": "Designing maintainable & scalable APIs with validation and clean service boundaries."
+    },
+    {
+      "title": "Search Systems",
+      "desc": "Developing Elasticsearch-powered discovery services with filtering, fuzzy search, and sorting."
+    },
+    {
+      "title": "Database Engineering",
+      "desc": "Working with MySQL, PostgreSQL, Redis caching, and relational data models."
+    },
+    {
+      "title": "Production Debugging",
+      "desc": "Handling deployments, debugging live issues, and performing root cause analysis."
+    },
+    {
+      "title": "System Design",
+      "desc": "Applying distributed systems and modular architecture principles for scalable platforms."
+    }
+  ],
+  "footer_status_lines": [
+    "200 OK — Open to Meaningful Challenges",
+    "404 Sleep Not Found",
+    "500 Internal Motivation Error",
+    "503 Need Snacks",
+    "Hint: Engineers press type -> 'springboot'"
+  ],
+  "resume": {
+    "file": "assets/pdf/resume.pdf",
+    "experience_snapshot": "Backend engineer building scalable Java microservices for a platform serving 11.8M+ users.",
+    "domains": ["Subscriptions", "Promotions", "Search", "Backend Platforms"],
+      "systems": ["Microservices", "REST APIs", "Search Services", "Centralized Data Access"]
+  }
+}

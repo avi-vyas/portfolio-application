@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Projects — PortfolioApplication</title>
+    <meta
+      name="description"
+      content="A service registry of backend projects."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Projects — PortfolioApplication" />
+    <meta property="og:description" content="Backend services and systems shipped to production." />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231a1f2b'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' fill='white' font-family='Inter,system-ui' font-size='14' font-weight='600' dominant-baseline='middle'%3EPA%3C/text%3E%3C/svg%3E"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body data-page="projects">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="nav" data-component="navbar" aria-label="Primary"></header>
+
+    <main id="main">
+      <section class="page-header">
+        <div class="container">
+          <span class="eyebrow">// service-registry</span>
+          <h1>Service Registry</h1>
+          <p>
+            A small catalogue of backend services I have designed, shipped, or rebuilt. Each one
+            tries to be simple enough to operate on a quiet weekend.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="grid grid--2" data-bind="projects.grid">
+            <!-- Populated from projects.json -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" data-component="footer" aria-label="Site footer"></footer>
+
+    <script src="assets/js/data-loader.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/easter-eggs.js"></script>
+  </body>
+</html>

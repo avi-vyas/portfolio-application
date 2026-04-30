@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>Resume — PortfolioApplication</title>
+    <meta
+      name="description"
+      content="Resume snapshot: experience, key skills, systems worked on, and domain exposure."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Resume — PortfolioApplication" />
+    <meta property="og:description" content="Download resume and review key highlights." />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231a1f2b'/%3E%3Ctext x='50%25' y='55%25' text-anchor='middle' fill='white' font-family='Inter,system-ui' font-size='14' font-weight='600' dominant-baseline='middle'%3EPA%3C/text%3E%3C/svg%3E"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body data-page="resume">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="nav" data-component="navbar" aria-label="Primary"></header>
+
+    <main id="main">
+      <section class="page-header">
+        <div class="container">
+          <span class="eyebrow">// resume</span>
+          <h1>Resume — at a glance.</h1>
+          <p>
+            A short snapshot of where I've shipped, what I've worked on, and the kinds of
+            systems I tend to gravitate toward.
+          </p>
+          <div style="margin-top: 20px;">
+            <a
+              class="btn btn--accent btn--mono"
+              data-bind="resume.link"
+              href="assets/pdf/resume.pdf"
+              download
+            >
+              <span aria-hidden="true">GET</span> /resume.pdf
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="resume-grid">
+            <div>
+              <div class="resume-block">
+                <h3>Experience Snapshot</h3>
+                <p data-bind="resume.snapshot" class="muted">
+                  4+ years building Java backends across fintech and SaaS domains.
+                </p>
+              </div>
+              <div class="resume-block">
+                <h3>Systems Worked On</h3>
+                <ul data-bind="resume.systems">
+                  <!-- Populated from profile.json -->
+                </ul>
+              </div>
+              <div class="resume-block">
+                <h3>Domains Exposure</h3>
+                <ul class="skill-tags" data-bind="resume.domains">
+                  <!-- Populated from profile.json -->
+                </ul>
+              </div>
+            </div>
+
+            <aside>
+              <div class="resume-block">
+                <h3>Key Skills</h3>
+                <div class="grid" data-bind="skills.grid" style="gap: 20px;">
+                  <!-- Populated from skills.json -->
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" data-component="footer" aria-label="Site footer"></footer>
+
+    <script src="assets/js/data-loader.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/easter-eggs.js"></script>
+  </body>
+</html>
