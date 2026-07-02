@@ -19,12 +19,11 @@
       "company": "To The New",
       "duration": "01/2025 — Present",
       "achievements": [
-        "Developed and deployed scalable backend services using Java, Spring Boot, and Microservices Architecture for a platform serving 11.8M+ users",
-        "Implemented a pricing feature enabling ~56% of users to upgrade channels, improving subscription workflows and user engagement",
-        "Designed and built a promotions system with multi-service integration supporting configurable business rules",
-        "Developed a search and discovery service using Elasticsearch with filtering, fuzzy search, and sorting",
-        "Built a centralized data access microservice integrating multiple downstream services",
-        "Managed production deployments, debugging, and root cause analysis to maintain reliable releases"
+        "Developed and maintained scalable backend microservices using Java and Spring Boot for a platform serving 11.8M+ users",
+"Designed and optimized Elasticsearch-powered search and autocomplete APIs by implementing fuzzy matching, multi-parameter queries, pagination, indexed sorting, and constant-score queries while migrating filtering and business logic from Java to Elasticsearch, reducing average search latency by over 90% (1.2s to <100ms)",
+"Built and automated a free channel upgrade system enabling eligible subscribers to upgrade to HD channels at the same subscription price across multiple touchpoints, later evolving it into a reusable microservice adopted by multiple teams, eliminating duplicate implementations",
+"Architected and delivered a configurable promotions system in iterative phases supporting recurring and multi-type promotional campaigns through business-rule-driven configurations across customer touchpoints, significantly reducing dependency on code changes for new campaigns",
+"Contributed to end-to-end feature development including requirement analysis, effort estimation, and technical feasibility assessment"
       ],
       "impact": "Currently shipping production backend systems focused on scale, business growth, search, and reliability.",
       "status": "RUNNING"
