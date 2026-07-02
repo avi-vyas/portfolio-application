@@ -2,11 +2,11 @@
   "categories": [
     {
       "name": "Backend",
-      "items": ["Java", "Python", "Spring Boot", "Spring MVC", "Spring Security", "FastAPI", "Hibernate", "Spring Data JPA", "REST APIs", "Microservices"]
+      "items": ["Java", "Python", "Spring Boot", "Spring AI", "Spring Security", "FastAPI", "Hibernate", "Spring Data JPA", "REST APIs", "Microservices"]
     },
     {
       "name": "Database",
-      "items": ["MySQL", "PostgreSQL", "Redis", "Elasticsearch", "Hazelcast"]
+      "items": ["MySQL", "PostgreSQL", "Redis", "Elasticsearch"]
     },
     {
       "name": "Tools",
